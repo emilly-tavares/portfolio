@@ -1,6 +1,7 @@
 function Home(){
     return <div>
-        Parabéns, você publicou sua primeira página! 
+       Mamãe eu te amoooooooooooo
+        
 
     </div>
 }
