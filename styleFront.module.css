@@ -1,0 +1,156 @@
+.bodyF{
+    font-family: 'Fira Code', monospace;
+      background-color: #000000;
+      color: #DF21BC;
+      margin: 0;
+  }
+
+  .Container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+
+
+
+.FormGoogleImg{
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.LoginGoogleText{
+    padding-left: 60px;
+    
+}
+
+.PomodoroText{
+    margin-left: 70px;
+}
+
+.FormText{
+    padding-left: 90px;
+    
+}
+
+.PortfolioText{
+    margin-left: 70px;
+}
+  
+.Text2{
+    font-size: 14px;
+    width: 300px;
+}
+
+
+.btnVoltar{
+    border: 0px solid;
+    color: #DF21BC;
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    margin: 30px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    font-family:'Poppins', sans-serif; 
+    cursor: pointer;
+  }
+  
+  .btnVoltar:hover{
+    color: #000000;
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 20px #242424;
+    background-color: #DF21BC;
+  }
+
+  @media screen and (max-width: 950px){
+
+    .bodyF{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .Container{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    .LoginGoogleText, .PomodoroText, .FormText, .PortfolioText{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      
+    }
+
+
+    .Text1, .Text2{
+        margin: 0;
+        padding: 0;
+    }
+
+    .Text1{
+        width: 300px;
+    }
+
+    .Text2{
+        padding-top: 20px;
+        width: 300px;
+       
+    }
+
+    .FormGoogleImg, .Img{
+        margin: 0;
+    }
+
+    .btnVoltar{
+        margin: 100px 0px 100px 0px;
+    }
+
+    
+  }
+
+  
+  @media screen and (max-width: 400px){
+
+
+
+    .Text1, .Text2{
+       width: 300px;
+    }
+
+    .FormGoogleImg, .Img{
+       width: 300px;
+       height: 300px;
+    }
+
+   
+    
+  }
+
+    
+  @media screen and (max-width: 300px){
+
+
+
+    .Text1, .Text2{
+       width: 200px;
+    }
+
+    .FormGoogleImg, .Img{
+       width: 200px;
+       height: 200px;
+    }
+
+   
+    
+  }
+
+
+ 
+

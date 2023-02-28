@@ -1,0 +1,126 @@
+.bodyGP{
+  font-family: 'Fira Code', monospace;
+    background-color: #000000;
+    color: #DF21BC;
+    margin: 0;
+}
+
+.Container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+
+.FarmLandText{
+  margin-left: 84px;
+}
+
+
+.Text1{
+  margin-left: 12px;
+}
+.Text2{
+  font-size: 14px;
+  width: 300px;
+  margin-left: 12px;
+}
+
+
+
+.MazeGame3DImg{
+  margin-right: 100px;
+}
+
+.MazeGame2DImg{
+  margin-right: 100px;
+}
+
+
+.btnVoltar{
+  border: 0px solid;
+  color: #DF21BC;
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  margin: 30px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+  font-family:'Poppins', sans-serif; 
+  cursor: pointer;
+}
+
+.btnVoltar:hover{
+  color: #000000;
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 20px #242424;
+  background-color: #DF21BC;
+}
+
+@media screen and (max-width: 830px){
+
+  .bodyGP{
+    text-align: center;
+  }
+   
+   
+    .Container{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .FarmLandImg, .MazeGame2DImg, .MazeGame3DImg{
+      margin: 0;
+      width: 300px;
+      height: 300px;
+    }
+
+
+    .FarmLandText{
+      margin: 0;
+    }
+
+    .btnVoltar{
+      
+      margin: 50px 0px 50px 0px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+  .FarmLandImg, .MazeGame2DImg, .MazeGame3DImg{
+    width: 200px;
+    height: 200px;
+  }
+
+  .Text1{
+    font-size: 30px;
+  }
+
+  .Text2{
+    width: 300px;
+  }
+  
+}
+
+@media screen and (max-width: 300px){
+
+  .FarmLandImg, .MazeGame2DImg, .MazeGame3DImg{
+    width: 150px;
+    height: 150px;
+  }
+
+  .Text1{
+    font-size: 20px;
+  }
+
+  .Text2{
+    width: 200px;
+  }
+  
+}
