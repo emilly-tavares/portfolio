@@ -52,7 +52,7 @@ function Home(){
               </div>
 
               <div className={styles.aboutme2}>
-                <h3>▷ Mais de dois anos de experiência com front-end e desenvolvimento de jogos</h3>
+                <h3>▷ Mais de três anos de experiência com front-end e desenvolvimento de jogos</h3>
                 <h3>▷ Participação na produção de 3 jogos para o NAVE Recife</h3>
                 <h3>▷ Experiência com Node, React and Next.js</h3>
                 <h3>▷ Conhecimento em Unity 3D, 2D e jogos mobile</h3>
