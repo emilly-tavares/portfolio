@@ -43,6 +43,18 @@
     width: 300px;
 }
 
+.Text3{
+    font-size: 14px;
+    width: 300px;
+    color: #DF21BC;
+   
+}
+
+.a{
+    text-decoration: none;
+}
+
+
 
 .btnVoltar{
     border: 0px solid;

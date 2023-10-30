@@ -18,34 +18,39 @@ function HomeFront() {
             </h1>
         </div>
       </div>
-      
+
       <div className={styles.Container}>
 
-      <Image src='/images/Pomodoro.png' alt='icon3' width='400' height='400' className={styles.Img}/>
+      <Image src='/images/Renov.png' alt='icon3' width='400' height='400' className={styles.Img}/>
 
-        <div className={styles.PomodoroText}>
+        <div className={styles.FormText}>
             <h1 className={styles.Text1}>
-                Pomodoro Timer
+                Renov Engenharia
             </h1>
             <h1 className={styles.Text2}>
-                Dois cronômetros produzidos com CSS, HTML e JavaScript. Cada um possui a função de iniciar, parar e resetar o cronômetro. O primeiro é para o pomodoro, durando 25 minutos e o segundo para o intervalo, durando 5 minutos.
+             Web Design produzido afim de criar uma experiência visual cativante do usuário, transmitindo de forma concisa e eficaz a essência da empresa. 
             </h1>
+            <a href="/arquivos/Renov Engenharia.pdf" target="_blank" className={styles.a}><h1 className={styles.Text3}>Clique aqui para ver o design completo</h1></a>
+
         </div>
       </div>
+      
+      
 
     
 
       <div className={styles.Container}>
 
-      <Image src='/images/form.png' alt='icon3' width='400' height='400' className={styles.Img}/>
+      <Image src='/images/TavaresTecnologia.png' alt='icon3' width='400' height='400' className={styles.Img}/>
 
         <div className={styles.FormText}>
             <h1 className={styles.Text1}>
-                Formulário de Dados
+                Tavares Tecnologia
             </h1>
             <h1 className={styles.Text2}>
-            Feito utilizando JavaScript, React e Node.js, esse formulário recebe dados como Nome, CPF e Número e confirma todos os dados em outra página web. Caso o usuário não responda os campos corretamente, ele é notificado pela página.
+            Site produzido através de JavaScript, HTML e CSS, com ênfase no design no site, produzindo uma interface de usuário interativa e intuitiva com responsividade em todos os aparelhos.
             </h1>
+            <a href="/arquivos/Tavares Tecnologia.pdf" target="_blank" className={styles.a}><h1 className={styles.Text3}>Clique aqui para ver o design completo</h1></a>
         </div>
       </div>
       
@@ -59,6 +64,20 @@ function HomeFront() {
             </h1>
             <h1 className={styles.Text2}>
             Este portfólio também foi uma produção pessoal. Ele foi feito utilizando as tecnologias  Node.js, React e Next.js, com a linguagem JavaScript.
+            </h1>
+        </div>
+      </div>
+
+      <div className={styles.Container}>
+
+      <Image src='/images/Pomodoro.png' alt='icon3' width='400' height='400' className={styles.Img}/>
+
+        <div className={styles.PomodoroText}>
+            <h1 className={styles.Text1}>
+                Pomodoro Timer
+            </h1>
+            <h1 className={styles.Text2}>
+                Dois cronômetros produzidos com CSS, HTML e JavaScript. Cada um possui a função de iniciar, parar e resetar o cronômetro. O primeiro é para o pomodoro, durando 25 minutos e o segundo para o intervalo, durando 5 minutos.
             </h1>
         </div>
       </div>
