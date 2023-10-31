@@ -19,7 +19,7 @@ function HomeGames() {
                Farm Land 
               </h1>
               <h1 className={styles.Text2}>
-               (Em desenvolvimento) É um jogo mobile que está sendo produzido na Unity com a temática de fazenda. Ele possui várias mecânicas como armazenamento de itens, colheita, movimentação, animação do personagem, entre outros.
+               É um jogo mobile que está sendo produzido na Unity com a temática de fazenda. Ele possui várias mecânicas como armazenamento de itens, colheita, movimentação, animação do personagem, entre outros.
               </h1>
            </div>
 
